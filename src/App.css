@@ -1,3 +1,8 @@
+*{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
 h2,
 h3 {
   margin: 0px;
@@ -8,7 +13,7 @@ h3 {
   text-align: center;
 }
 
-.App-header {
+.App-header, .CV-header {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -16,6 +21,12 @@ h3 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header img{
+  width: 100%;
+  object-fit: contain;
+
 }
 
 menu{
@@ -178,16 +189,54 @@ footer {
     margin: 0;
   }
 
+  menu{
+   
+  }
+  menu div{
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0 5px;
+  }
+
+  .Curriculo img{
+    width: 100px;
+  }
+
   body {
     width: 100%;
     margin: 0 auto;
   }
 
 
-  .App-header img {
+
+  img{
     width: 100%;
+    object-fit: contain;
+  
   }
 
+  .CV-header img {
+    width: 50%;
+  }
+
+  .Curriculo h2{
+    width: 98%;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .Curriculo ul{
+    width: 90%;
+    list-style: none;
+  }
+
+  .Curriculo li{
+
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  
   .textoCapa {
     height: auto;
     padding: 20px;
@@ -204,7 +253,7 @@ footer {
   }
 
   .Quadro img {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     border: 5px solid #282c34;

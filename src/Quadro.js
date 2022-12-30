@@ -2,8 +2,8 @@
 function Quadro({ element }) {
 
   function MouseClick(event) {
-    event.target.style.height = '100vh';
-    event.target.style.width = 'auto';
+    event.target.style.width = '90vw';
+    event.target.style.height = 'auto';
 
   }
   function DoubleClick(event){

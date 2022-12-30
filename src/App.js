@@ -27,7 +27,7 @@ function App() {
         </> : null}
       {menuItem === "curriculo" ?
         <>
-          <header className="App-header">
+          <header className="CV-header">
             <img src={curriculo} className="FotoCurriculo" alt="logo" />
             <h1>Thalma de Oliveira Rodrigues</h1>
             <Curriculo />
