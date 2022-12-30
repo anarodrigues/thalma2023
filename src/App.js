@@ -20,7 +20,7 @@ function App() {
             <img src={capa} className="Capa" alt="logo" />
             <div className="textoCapa"><h1>
               Fragmentos da Amazônia</h1>
-              <h3>Thalma</h3>
+              <h2>Thalma</h2>
             </div>
           </header>
           <Galeria />
