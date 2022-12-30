@@ -11,6 +11,12 @@ function Quadro({ element }) {
     event.target.style.width="auto";
   }
 
+  function handleComprar(event){
+    let subject = "Interesse no quadro "+element.title+" no valor de R$"+element.price;
+    let text = "Olá, Thalma.%0d%0a %0d%0a Meu nome é: %0d%0a e eu gostaria de saber mais informações sobre o quadro "+element.title+" no valor de R$"+element.price+".%0d%0a %0d%0a Atenciosamente, \n";
+    let location = 'mailto:thalma@studiothalma.com.br?subject='+subject+'&body='+text;
+    window.location = location; 
+  }
   let cotacao = 5;
   let priceCAD = parseFloat(element.price.replace(".","")) / cotacao;
   return <div className="Quadro">
@@ -18,7 +24,7 @@ function Quadro({ element }) {
     <div className="title">{element.title}</div>
     <div className="details">{element.tech} - {element.size}</div>
     <div className="price">R$ {element.price} / CAD {priceCAD}</div>
-    {element.available==='no' ? <div className="sold"><p>VENDIDO</p></div>:null}
+    {element.available==='no' ? <div className="sold"><p>VENDIDO</p></div>:<div className="Comprar"><button onClick={handleComprar}>CONTACTAR A ARTISTA</button></div>}
   </div>
 }
 

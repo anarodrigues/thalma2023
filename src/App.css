@@ -100,6 +100,16 @@ footer {
   bottom: 0;
 }
 
+.Comprar button{
+  background-color: rgb(44, 114, 76);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 1px #282c34;
+  width: 200px;
+}
+
 @media (max-width: 600px) {
   * {
     padding: 0;
