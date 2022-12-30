@@ -7,7 +7,7 @@ function Quadro({ element }) {
 
   }
   function DoubleClick(event){
-    event.target.style.height = '600px';
+    event.target.style.height = '400px';
     event.target.style.width="auto";
   }
 

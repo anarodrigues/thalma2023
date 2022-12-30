@@ -69,7 +69,7 @@ function Galeria() {
       available: 'no',
     },
     {
-      title: 'Angelim pedra de 600 anos I',
+      title: 'Angelim I',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
@@ -79,28 +79,14 @@ function Galeria() {
     
    
     {
-      title: 'Angelim pedra de 600 anos II',
+      title: 'Angelim II',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
       image: a10,
     },
-    {
-      title: 'Cipó Aquático I',
-      price: '1.000',
-      tech: 'Aquarela',
-      size: '17cm x 22cm',
-      image: a2,
-      available: 'no',
-    },
-    {
-      title: 'Folhas no Chão',
-      price: '1.500',
-      tech: 'Aquarela',
-      size: '20cm x 30cm',
-      image: a9,
-      
-    },
+   
+    
     {
       title: 'Folhas na Chuva',
       price: '1.000',
@@ -117,6 +103,21 @@ function Galeria() {
       image: a1,
       available: 'no',
     },
+    {
+      title: 'Cipó Aquático I',
+      price: '1.000',
+      tech: 'Aquarela',
+      size: '17cm x 22cm',
+      image: a2,
+      available: 'no',
+    },{
+      title: 'Folhas no Chão',
+      price: '1.500',
+      tech: 'Aquarela',
+      size: '20cm x 30cm',
+      image: a9,
+      
+    },
   ]
 
   let oleos = [
@@ -127,13 +128,7 @@ function Galeria() {
       size: '41cm x 31cm',
       image: o9,
     },
-    {
-      title: 'Tartaruguinha',
-      price: '1.500',
-      tech: 'Óleo sobre tela',
-      size: '17cm x 22cm',
-      image: o1
-    },
+    
     {
       title: 'Folha Aquática',
       price: '1.500',
@@ -178,13 +173,13 @@ function Galeria() {
       size: '60cm x 100cm',
       image: o7
     },
+   
     {
-      title: 'Folhagem de chão',
-      price: '3.600',
+      title: 'Tartaruguinha',
+      price: '1.500',
       tech: 'Óleo sobre tela',
-      size: '41cm x 31cm',
-      image: o8,
-      available: 'no',
+      size: '17cm x 22cm',
+      image: o1
     },
     {
       title: 'Interior da floresta',
@@ -192,6 +187,13 @@ function Galeria() {
       tech: 'Óleo sobre tela',
       size: '60cm x 105cm',
       image: o10
+    },
+    {
+      title: 'Vitória régia abrindo',
+      price: '4.800',
+      tech: 'Óleo sobre tela',
+      size: '40cm x 50cm',
+      image: o13
     },
     {
       title: 'No chão do caminho I',
@@ -207,19 +209,21 @@ function Galeria() {
       size: '40cm x 40cm',
       image: o12
     }, 
-    {
-      title: 'Vitória régia abrindo',
-      price: '4.800',
-      tech: 'Óleo sobre tela',
-      size: '40cm x 50cm',
-      image: o13
-    },
+    
     {
       title: 'Vitória régia',
       price: '8.000',
       tech: 'Óleo sobre tela',
       size: '50cm x 75cm',
       image: o14
+    },
+    {
+      title: 'Folhagem de chão',
+      price: '3.600',
+      tech: 'Óleo sobre tela',
+      size: '41cm x 31cm',
+      image: o8,
+      available: 'no',
     },
     {
       title: 'Folhas no rio',
@@ -237,19 +241,20 @@ function Galeria() {
       image: o16
     },
     {
-      title: 'Sombra no rio',
-      price: '9.000',
-      tech: 'Óleo sobre tela',
-      size: '60cm x 80cm',
-      image: o17
-    },
-    {
       title: 'Folhagens',
       price: '4.800',
       tech: 'Óleo sobre tela',
       size: '40cm x 50cm',
       image: o18
     },
+    {
+      title: 'Sombra no rio',
+      price: '9.000',
+      tech: 'Óleo sobre tela',
+      size: '60cm x 80cm',
+      image: o17
+    },
+    
    
    
   ]
