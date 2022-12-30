@@ -38,13 +38,13 @@ function Curriculo() {
 
       <li>1977 - Curso de Análise Crítica das Histórias em Quadrinhos e Desenhos de Humor, Coordenadoria de Cultura do Estado de Minas Gerais</li>
 
-      <li>1978 e 1979 - Curso de ExtenSão em Desenho de Humor e Quadrinhos, do Departamento de Comunicacío da Faculdade de Filosofia da UFMG</li>
+      <li>1978 e 1979 - Curso de Extensão em Desenho de Humor e Quadrinhos, do Departamento de Comunicacío da Faculdade de Filosofia da UFMG</li>
 
       <li>1980 a 1986 - Atelier Livre de Desenho e Pintura para Crianças e Adolescentes, Belo Horizonte </li>
 
-      <li>1985 - Curso de ExtenSão em Humor ( Desenho e Análise Crítica) , Departamento de Desenho da Escola de Belas Artes da UFMG</li>
+      <li>1985 - Curso de Extensão em Humor (Desenho e Análise Crítica) , Departamento de Desenho da Escola de Belas Artes da UFMG</li>
 
-      <li>1989 a 2003 - Curso livre de desenho “ Desenhando com o Lado Direito do Cérebro,” Belo Horizonte . Em seu atelier.</li>
+      <li>1989 a 2003 - Curso livre de desenho "Desenhando com o Lado Direito do Cérebro", Belo Horizonte. Em seu atelier.</li>
 
       <li>1994 - Participa do Projeto Convivendo com Arte, Belo Horizonte.</li>
 
