@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <menu>
-        <div onClick={() => setMenuItem('amazonia')}>Fragmentos da Amazônia</div>
-        <div onClick={() => setMenuItem('curriculo')}>Currículo</div>
+        <div onClick={() => {setMenuItem('amazonia'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Fragmentos da Amazônia</div>
+        <div onClick={() => {setMenuItem('curriculo'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Currículo</div>
       </menu>
       {menuItem === "amazonia" ?
         <>
