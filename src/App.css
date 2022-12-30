@@ -1,4 +1,5 @@
-h2, h3 {
+h2,
+h3 {
   margin: 0px;
   padding: 20px;
 }
@@ -17,15 +18,15 @@ h2, h3 {
   color: white;
 }
 
-.textoCapa{
+.textoCapa {
   position: absolute;
   padding: 100px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .Galeria {
   padding: 20px 20%;
-  background-color: rgb(192,106,35);
+  background-color: rgb(192, 106, 35);
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
@@ -39,7 +40,7 @@ h2, h3 {
   color: #61dafb;
 }
 
-.Quadro{
+.Quadro {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -47,35 +48,35 @@ h2, h3 {
   position: relative;
 }
 
-.Quadro img{
-  height:240px;
+.Quadro img {
+  height: 240px;
   border: 20px solid #282c34;
   box-shadow: 5px 2px 5px #282c34;
-  margin:10px;
+  margin: 10px;
 
 }
 
-.Quadro .title{
+.Quadro .title {
   margin: 0px;
   padding: 0px;
   font-size: 30px;
   color: #282c34;
 }
 
-.Quadro .details{
+.Quadro .details {
   margin: 0px;
   padding: 0px;
   font-size: 16px;
   color: #282c34;
 }
 
-.Quadro .price{
+.Quadro .price {
   margin: 5px;
   padding: 5px;
   font-size: 18px;
 }
 
-.Quadro .sold{
+.Quadro .sold {
   position: absolute;
   right: -20px;
   top: -20px;
@@ -87,83 +88,86 @@ h2, h3 {
   transform: rotate(30deg)
 }
 
-.Quadro .sold p{
-  padding: 20px;
+.Quadro .sold p {
+  padding: 20px 0;
 }
 
-footer{
+footer {
   height: 40px;
   position: relative;
   bottom: 0;
 }
 
 @media (max-width: 600px) {
- *{
-  padding: 0;
-  margin: 0;
- }
+  * {
+    padding: 0;
+    margin: 0;
+  }
 
- body{
-  width: 100%;
-  margin: 0 auto;
- }
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
 
- 
- .App-header img {
-  width: 100%;
- }
 
- .textoCapa{
-  height: auto;
-  padding: 20px;
-  font-size: 1rem;
- }
+  .App-header img {
+    width: 100%;
+  }
 
-h1{
-  padding: 10px 60px;
- }
+  .textoCapa {
+    height: auto;
+    padding: 20px;
+    font-size: 1rem;
+  }
 
- .Galeria{
-  flex-direction: row;
-  padding: 0;
- }
- .Quadro img{
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  border:5px solid #282c34;
- }
+  h1 {
+    padding: 10px 60px;
+  }
 
- .Quadro .title{
-  font-size: 1rem;
-  padding: 10px;
- }
+  .Galeria {
+    flex-direction: row;
+    padding: 0;
+  }
 
- .Quadro .details{
-  font-size: 0.8rem;
- }
+  .Quadro img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #282c34;
+  }
 
- .Quadro .price{
-  font-size: 0.8rem;
- }
+  .Quadro .title {
+    font-size: 1rem;
+    padding: 10px;
+  }
 
- .Quadro .sold{
-  font-size: 0.4rem;
-  width: 50px;
-  height: 50px;
-  top: 0;
-  right: 10px;
-}
-.Quadro .sold p{
-  padding: 18px 0 0 2px;
-}
+  .Quadro .details {
+    font-size: 0.8rem;
+  }
 
- footer{
-  font-size: 0.5rem;
-  height: auto;
- }
- footer p{
-  padding: 10px;
- }
+  .Quadro .price {
+    font-size: 0.8rem;
+  }
+
+  .Quadro .sold {
+    font-size: 0.5rem;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 30px;
+  }
+
+  .Quadro .sold p {
+    padding: 18px 0 0 2px;
+  }
+
+  footer {
+    font-size: 0.5rem;
+    height: auto;
+  }
+
+  footer p {
+    padding: 10px;
+  }
 
 }

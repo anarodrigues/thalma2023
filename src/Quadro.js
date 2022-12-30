@@ -17,8 +17,8 @@ function Quadro({ element }) {
     <img src={element.image} onClick={MouseClick} onDoubleClick={DoubleClick} alt={element.title}/>
     <div className="title">{element.title}</div>
     <div className="details">{element.tech} - {element.size}</div>
-    
-    {element.available==='no' ? <div className="sold"><p>VENDIDO</p></div>:<div className="price">R$ {element.price} / CAD {priceCAD}</div>}
+    <div className="price">R$ {element.price} / CAD {priceCAD}</div>
+    {element.available==='no' ? <div className="sold"><p>VENDIDO</p></div>:null}
   </div>
 }
 
