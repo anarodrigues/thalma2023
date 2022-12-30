@@ -38,70 +38,80 @@ function Galeria() {
       price: '1.500',
       tech: 'Aquarela e lápis de cor',
       size: '20cm x 30cm',
-      image: a1
+      image: a1,
+      available: 'no',
     },
     {
       title: 'Cipó Aquático I',
       price: '1.000',
       tech: 'Aquarela',
       size: '17cm x 22cm',
-      image: a2
+      image: a2,
+      available: 'no',
     },
     {
       title: 'Cipó Aquático II',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a3
+      image: a3,
+      available: 'yes',
     },
     {
       title: 'Folhas na Chuva',
       price: '1.000',
       tech: 'Aquarela',
       size: '17cm x 22cm',
-      image: a4
+      image: a4,
+      available: 'no',
     },
     {
       title: 'Folhas soltas',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a5
+      image: a5,
+      available: 'yes',
     },
     {
       title: 'De dentro da oca',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a6
+      image: a6,
+      available: 'no',
     },
     {
       title: 'Beira de rio',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a7
+      image: a7,
+      available: 'no',
     },
     {
       title: 'Angelim pedra de 600 anos I',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a8
+      image: a8,
+      available: 'no',
     },
     {
       title: 'Angelim pedra de 600 anos II',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a10
+      image: a10,
+      available: 'yes',
     },
     {
       title: 'Folhas no Chão',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
-      image: a9
+      image: a9,
+      available: 'yes',
     }
   ]
 
@@ -132,7 +142,8 @@ function Galeria() {
       price: '1.500',
       tech: 'Óleo sobre tela',
       size: '17cm x 22cm',
-      image: o3
+      image: o3,
+      available: 'no',
     },
     {
       title: 'Cogumelos',
@@ -168,7 +179,8 @@ function Galeria() {
       price: '3.600',
       tech: 'Óleo sobre tela',
       size: '41cm x 31cm',
-      image: o8
+      image: o8,
+      available: 'no',
     },
     {
       title: 'Interior da floresta',
@@ -210,7 +222,8 @@ function Galeria() {
       price: '9.200',
       tech: 'Óleo sobre tela',
       size: '60cm x 90cm',
-      image: o15
+      image: o15,
+      available: 'no',
     },
     {
       title: 'Vista Aérea',
@@ -239,7 +252,8 @@ function Galeria() {
   return (<>
    <h2>ÓLEOS</h2>
     <div className="Galeria">
-      
+    <h4>Clique nos quadros para ver maior. Clique duas vezes para voltar ao normal.</h4>
+
       {oleos.map(element => {
         return <Quadro element={element} />
       })
@@ -247,7 +261,8 @@ function Galeria() {
     </div>
     <h2>AQUARELAS</h2>
     <div className="Galeria">
-      
+    <h4>Clique nos quadros para ver maior. Clique duas vezes para voltar ao normal.</h4>
+  
       {aquarelas.map(element => {
         return <Quadro element={element} />
       })
