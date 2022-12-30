@@ -69,7 +69,7 @@ menu div:hover{
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -90,14 +90,14 @@ menu div:hover{
 }
 
 .Quadro img {
-  width: 400px;
+  height: 600px;
   border: 20px solid #282c34;
   box-shadow: 5px 2px 5px #282c34;
 }
 
 .Quadro .title {
-  margin: 0px;
-  padding: 0px;
+  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
   font-size: 30px;
   color: #282c34;
 }
@@ -117,14 +117,18 @@ menu div:hover{
 
 .Quadro .sold {
   position: absolute;
-  right: -20px;
-  top: -20px;
+  right: -10px;
+  top: 0px;
+  border: 5px solid  #282c34;
   border-radius: 50%;
   font-size: 1rem;
+  font-weight: bold;
   background-color: #282c34;
-  height: 100px;
-  width: 100px;
-  transform: rotate(30deg)
+  color: white;
+  height: 110px;
+  width: 110px;
+  transform: rotate(30deg);
+  box-shadow: 5px 5px 3px #282c34;
 }
 
 .Quadro .sold p {

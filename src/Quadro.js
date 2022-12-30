@@ -7,8 +7,8 @@ function Quadro({ element }) {
 
   }
   function DoubleClick(event){
-    event.target.style.width = '400px';
-    event.target.style.height="auto";
+    event.target.style.height = '600px';
+    event.target.style.width="auto";
   }
 
   function handleComprar(event){
@@ -22,7 +22,7 @@ function Quadro({ element }) {
   return <div className="Quadro">
     <img src={element.image} onClick={MouseClick} onDoubleClick={DoubleClick} alt={element.title}/>
     <div className="title">{element.title}</div>
-    <div className="details">{element.tech} - {element.size} - 2023</div>
+    <div className="details">{element.tech} - {element.size}</div>
     <div className="price">R$ {element.price} / CAD {priceCAD}</div>
     {element.available==='no' ? <div className="sold"><p>VENDIDO</p></div>:<div className="Comprar"><button onClick={handleComprar}>CONTACTAR A ARTISTA</button></div>}
   </div>
