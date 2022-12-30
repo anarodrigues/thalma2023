@@ -252,7 +252,7 @@ function Galeria() {
   return (<>
    <h2>ÓLEOS</h2>
     <div className="Galeria">
-    <h4>Clique nos quadros para ver maior. Clique duas vezes para voltar ao normal.</h4>
+   
 
       {oleos.map(element => {
         return <Quadro element={element} />
@@ -261,7 +261,7 @@ function Galeria() {
     </div>
     <h2>AQUARELAS</h2>
     <div className="Galeria">
-    <h4>Clique nos quadros para ver maior. Clique duas vezes para voltar ao normal.</h4>
+   
   
       {aquarelas.map(element => {
         return <Quadro element={element} />
