@@ -2,13 +2,13 @@
 function Quadro({ element }) {
 
   function MouseClick(event) {
-    event.target.style.width = '90vw';
-    event.target.style.height = 'auto';
+    // event.target.style.width = '90vw';
+    // event.target.style.height = 'auto';
 
   }
   function DoubleClick(event){
-    event.target.style.height = '240px';
-    event.target.style.width="auto";
+    // event.target.style.height = '240px';
+    // event.target.style.width="auto";
   }
 
   function handleComprar(event){

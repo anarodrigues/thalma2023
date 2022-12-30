@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+img{
+  width: 100%;
+  object-fit: contain;
+}
+
 h2,
 h3 {
   margin: 0px;
@@ -51,6 +56,7 @@ menu div{
 menu div:hover{
   background-color: #282c34;
 }
+
 .textoCapa {
   position: absolute;
   padding: 100px;
@@ -76,7 +82,7 @@ menu div:hover{
 
 .Quadro {
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -84,11 +90,9 @@ menu div:hover{
 }
 
 .Quadro img {
-  height: 240px;
+  width: 400px;
   border: 20px solid #282c34;
   box-shadow: 5px 2px 5px #282c34;
-  margin: 10px;
-
 }
 
 .Quadro .title {
@@ -209,11 +213,7 @@ footer {
 
 
 
-  img{
-    width: 100%;
-    object-fit: contain;
-  
-  }
+ 
 
   .CV-header img {
     width: 50%;
@@ -232,7 +232,6 @@ footer {
   }
 
   .Curriculo li{
-
     font-size: 1rem;
     padding: 5px 10px;
   }

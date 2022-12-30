@@ -8,7 +8,7 @@ import a6 from './images/aquarelas/Aquarela6.jpg'
 import a7 from './images/aquarelas/Aquarela7.jpg'
 import a8 from './images/aquarelas/Aquarela8.jpg'
 import a9 from './images/aquarelas/Aquarela9.jpg'
-import a10 from './images/aquarelas/Aquarela10.jpg'
+import a10 from './images/aquarelas/Aquarela-AngelimII.jpg'
 import o1 from './images/oleos/Tartaruguinha.jpg'
 import o2 from './images/oleos/FolhaAquatica.jpg'
 import o3 from './images/oleos/CiposAquaticos.jpg'
@@ -33,22 +33,7 @@ import o18 from './images/oleos/Folhagens.jpg'
 function Galeria() {
   let aquarelas = [
     
-    {
-      title: 'Três folhas',
-      price: '1.500',
-      tech: 'Aquarela e lápis de cor',
-      size: '20cm x 30cm',
-      image: a1,
-      available: 'no',
-    },
-    {
-      title: 'Cipó Aquático I',
-      price: '1.000',
-      tech: 'Aquarela',
-      size: '17cm x 22cm',
-      image: a2,
-      available: 'no',
-    },
+   
     {
       title: 'Cipó Aquático II',
       price: '1.500',
@@ -57,14 +42,7 @@ function Galeria() {
       image: a3,
       available: 'yes',
     },
-    {
-      title: 'Folhas na Chuva',
-      price: '1.000',
-      tech: 'Aquarela',
-      size: '17cm x 22cm',
-      image: a4,
-      available: 'no',
-    },
+    
     {
       title: 'Folhas soltas',
       price: '1.500',
@@ -81,6 +59,7 @@ function Galeria() {
       image: a6,
       available: 'no',
     },
+   
     {
       title: 'Beira de rio',
       price: '1.500',
@@ -97,13 +76,22 @@ function Galeria() {
       image: a8,
       available: 'no',
     },
+    
+   
     {
       title: 'Angelim pedra de 600 anos II',
       price: '1.500',
       tech: 'Aquarela',
       size: '20cm x 30cm',
       image: a10,
-      available: 'yes',
+    },
+    {
+      title: 'Cipó Aquático I',
+      price: '1.000',
+      tech: 'Aquarela',
+      size: '17cm x 22cm',
+      image: a2,
+      available: 'no',
     },
     {
       title: 'Folhas no Chão',
@@ -111,8 +99,24 @@ function Galeria() {
       tech: 'Aquarela',
       size: '20cm x 30cm',
       image: a9,
-      available: 'yes',
-    }
+      
+    },
+    {
+      title: 'Folhas na Chuva',
+      price: '1.000',
+      tech: 'Aquarela',
+      size: '17cm x 22cm',
+      image: a4,
+      available: 'no',
+    },
+    {
+      title: 'Três folhas',
+      price: '1.500',
+      tech: 'Aquarela e lápis de cor',
+      size: '20cm x 30cm',
+      image: a1,
+      available: 'no',
+    },
   ]
 
   let oleos = [
