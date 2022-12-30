@@ -212,9 +212,9 @@ function Galeria() {
     },
     {
       title: 'Vitória régia',
-      price: '4.800',
+      price: '8.000',
       tech: 'Óleo sobre tela',
-      size: '40cm x 50cm',
+      size: '50cm x 75cm',
       image: o14
     },
     {
