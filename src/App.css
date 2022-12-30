@@ -226,7 +226,7 @@ footer {
     border-radius: 5px;
   }
 
-  .Curriculo ul{
+  .Curriculo ul, .Curriculo ol{
     width: 90%;
     list-style: none;
   }

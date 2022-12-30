@@ -126,14 +126,14 @@ function Curriculo() {
 
       <li>1998 - Ilustrações para o livro de Técnicas esportivas para ensino de Educação Física do prof. Pablo Juan Greco .</li>
 
-      <li>1999 a 2001 - Ilustrações para os livros do escritor Angelo Machado.</li>
+      <li>1999 a 2001 - Ilustrações para os livros do escritor Angelo Machado:
       <ol>
         <li>Os fugitivos da Esquadra de Cabral ( Ed. Nova Fronteira)</li>
 
         <li>O Tesouro do Quilombo ( Biodiversitas- Cemig)</li>
 
         <li>A Outra Perna do Saci (Ed. Nova Fronteira)</li>
-      </ol>
+      </ol></li>
     </ul>
   </div>
   );
