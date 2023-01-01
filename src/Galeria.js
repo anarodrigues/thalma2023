@@ -9,6 +9,7 @@ import a7 from './images/aquarelas/Aquarela7.jpg'
 import a8 from './images/aquarelas/Aquarela8.jpg'
 import a9 from './images/aquarelas/Aquarela9.jpg'
 import a10 from './images/aquarelas/Aquarela-AngelimII.jpg'
+import a11 from './images/aquarelas/Aquarela11.jpg'
 import o1 from './images/oleos/Tartaruguinha.jpg'
 import o2 from './images/oleos/FolhaAquatica.jpg'
 import o3 from './images/oleos/CiposAquaticos.jpg'
@@ -117,6 +118,13 @@ function Galeria() {
       size: '20cm x 30cm',
       image: a9,
       
+    },{
+      title: 'Folhas Secas',
+      price: '1.500',
+      tech: 'Aquarela',
+      size: '20cm x 30cm',
+      image: a11,
+      available: 'no',
     },
   ]
 
