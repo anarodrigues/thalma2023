@@ -18,6 +18,14 @@ import p15 from './images/promessasDeVoo/p15.jpg'
 import p16 from './images/promessasDeVoo/p16.jpg'
 import p17 from './images/promessasDeVoo/p17.jpg'
 import p18 from './images/promessasDeVoo/p18.jpg'
+import e1 from './images/promessasDeVoo/e1.jpg'
+import e2 from './images/promessasDeVoo/e2.jpg'
+import e3 from './images/promessasDeVoo/e3.jpg'
+import e4 from './images/promessasDeVoo/e4.jpg'
+import e5 from './images/promessasDeVoo/e5.jpg'
+import e6 from './images/promessasDeVoo/e6.jpg'
+import e7 from './images/promessasDeVoo/e7.jpg'
+import e8 from './images/promessasDeVoo/e8.jpg'
 
 
 
@@ -151,7 +159,62 @@ function Promessas() {
       size: '30cm x 80cm',
       image: p15,
     },
-   
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '21cm x 28cm',
+      image: e1,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '19cm x 26cm',
+      image: e2,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '32cm x 30cm',
+      image: e3,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '25cm x 20cm',
+      image: e4,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '15cm x 28cm',
+      image: e5,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '30cm x 28cm',
+      image: e6,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '24cm x 27cm',
+      image: e7,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Escultura de vidro',
+      size: '26cm x 17cm',
+      image: e8,
+    },
   ]
   return (<>
     <div className="Promessas">
