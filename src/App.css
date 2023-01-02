@@ -50,7 +50,7 @@ menu{
 }
 
 menu div{
-  margin: 0px 40px;
+  margin: 0px 20px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
@@ -274,7 +274,7 @@ footer {
   }
 
   menu div{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     padding: 0;
     margin: 0 5px;
   }
