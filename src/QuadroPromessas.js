@@ -1,5 +1,5 @@
 
-function Quadro({ element }) {
+function QuadroPromessas({ element }) {
 
   function MouseClick(event) {
     event.target.style.width = '90vw';
@@ -25,7 +25,7 @@ function Quadro({ element }) {
     priceR = 'R$ '+element.price;
     priceCAD = " -- CAD "+parseFloat(element.price.replace(".","")) / cotacao;
   }
-  return <div className="Quadro">
+  return <div className="QuadroPromessas">
     <img src={element.image} onClick={MouseClick} onDoubleClick={DoubleClick} alt={element.title}/>
     <div className="title">{element.title}</div>
     <div className="details">{element.tech}</div>
@@ -35,4 +35,4 @@ function Quadro({ element }) {
   </div>
 }
 
-export default Quadro;
+export default QuadroPromessas;

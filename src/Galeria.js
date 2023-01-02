@@ -33,8 +33,6 @@ import o18 from './images/oleos/Folhagens.jpg'
 
 function Galeria() {
   let aquarelas = [
-    
-   
     {
       title: 'Cipó Aquático II',
       price: '1.500',
@@ -266,13 +264,15 @@ function Galeria() {
    
    
   ]
+
+  
   return (<>
    <h2>ÓLEOS</h2>
     <div className="Galeria">
    
 
       {oleos.map(element => {
-        return <Quadro element={element} />
+        return <Quadro key={element.title} element={element} />
       })
       }
     </div>
@@ -281,7 +281,7 @@ function Galeria() {
    
   
       {aquarelas.map(element => {
-        return <Quadro element={element} />
+        return <Quadro  key={element.title} element={element} />
       })
       }
     </div>
