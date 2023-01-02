@@ -33,6 +33,10 @@ h3 {
   object-fit: contain;
 }
 
+.Capa2 {
+  max-width: 1200px;
+}
+
 menu{
   position: fixed;
   z-index: 10;
@@ -120,7 +124,8 @@ menu div:hover{
 }
 
 .QuadroPromessas,
-.QuadroPersonas{
+.QuadroPersonas,
+.QuadroCorredores{
   padding: 20px;
   margin: 30px;
   display: flex;
@@ -137,14 +142,16 @@ menu div:hover{
 }
 
 .QuadroPromessas img,
-.QuadroPersonas img{
+.QuadroPersonas img,
+.QuadroCorredores img{
   margin: 0px;
   box-shadow: 5px 2px 5px #282c34;
 }
 
 .Quadro .title,
 .QuadroPromessas .title,
-.QuadroPersonas .title{
+.QuadroPersonas .title,
+.QuadroCorredores .title{
   margin: 5px 0 0 0;
   padding: 5px 0 0 0;
   font-size: 30px;
@@ -161,7 +168,8 @@ menu div:hover{
 
 .Quadro .details,
 .QuadroPromessas .details,
-.QuadroPersonas .details {
+.QuadroPersonas .details,
+.QuadroCorredores .details{
   margin: 0px;
   padding: 0px;
   font-size: 16px;

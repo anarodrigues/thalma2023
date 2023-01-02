@@ -12,6 +12,7 @@ import pe9 from './images/personas/p9.jpg'
 import pe10 from './images/personas/p10.jpg'
 import pe11 from './images/personas/p11.jpg'
 import pe12 from './images/personas/p12.jpg'
+import monalisa from './images/personas/mona-lisa.jpg'
 
 
 function Personas() {
@@ -95,11 +96,11 @@ function Personas() {
       image: pe11,
     },
     {
-      title: 'Rosas que a Rose Trouxe',
+      title: 'Mona Lisa',
       price: null,
       tech: 'Acrílica / Tela',
-      size: '',
-      image: pe12,
+      size: '1,40m x 1m',
+      image: monalisa,
     },
     
   ]

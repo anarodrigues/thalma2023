@@ -1,5 +1,5 @@
 
-function QuadroPersonas({ element }) {
+function QuadroCorredores({ element }) {
 
   function MouseClick(event) {
     event.target.style.width = '90vw';
@@ -25,7 +25,7 @@ function QuadroPersonas({ element }) {
     priceR = 'R$ '+element.price;
     priceCAD = " -- CAD "+parseFloat(element.price.replace(".","")) / cotacao;
   }
-  return <div className="QuadroPersonas">
+  return <div className="QuadroCorredores">
     <img src={element.image} onClick={MouseClick} onDoubleClick={DoubleClick} alt={element.title}/>
     <div className="title">{element.title}</div>
     <div className="details">{element.tech}</div>
@@ -34,4 +34,4 @@ function QuadroPersonas({ element }) {
   </div>
 }
 
-export default QuadroPersonas;
+export default QuadroCorredores;
