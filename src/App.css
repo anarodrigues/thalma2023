@@ -33,7 +33,7 @@ h3 {
   object-fit: contain;
 }
 
-.Capa2 {
+.Capa, .Capa2 {
   max-width: 1200px;
 }
 
