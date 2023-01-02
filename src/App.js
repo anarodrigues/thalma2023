@@ -76,9 +76,9 @@ function App() {
         <>
           <header className="CV-header">
             <img src={curriculo} className="FotoCurriculo" alt="logo" />
-            <h1>Thalma de Oliveira Rodrigues</h1>
-            <p>thalma@estudiothalma.com.br - Belo Horizonte, MG, Brasil</p>
-            <p><i>Galeria Beatriz Abi-Acl</i>. Rua Santa Catarina, 1155, Belo Horizonte, MG. +55 (31) 3291- 2101</p>
+            <h1 className="contato">Thalma de Oliveira Rodrigues</h1>
+            <p className="contato">thalma@estudiothalma.com.br - Belo Horizonte, MG, Brasil</p>
+            <p className="contato"><i>Galeria Beatriz Abi-Acl</i>. Rua Santa Catarina, 1155, Belo Horizonte, MG. +55 (31) 3291- 2101</p>
             <Curriculo />
           </header>
 

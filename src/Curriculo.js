@@ -1,7 +1,7 @@
 import './App.css';
 
 function Curriculo() {
-  return (<div className="Curriculo">
+  return (<div className="Curriculo contato">
     <h2> Formação</h2>
     <ul>
       <li>1970 - 1971 - Monitora de Gravura na Graduação em Belas Artes</li>

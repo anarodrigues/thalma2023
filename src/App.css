@@ -8,6 +8,10 @@ img{
   object-fit: contain;
 }
 
+.contato{
+  color: black;
+}
+
 h2,
 h3 {
   margin: 0px;
@@ -250,7 +254,7 @@ menu div:hover{
 .Curriculo ul{
   width: 70%;
   margin: 0 auto;
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgba(214, 207, 207,0.5);
   margin: 0 auto;
   border-radius: 0px;
   padding-bottom: 20px;
