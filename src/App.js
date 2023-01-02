@@ -5,7 +5,7 @@ import Promessas from './Promessas.js';
 import Curriculo from './Curriculo.js';
 import { useState } from 'react';
 import capa from './images/oleos/FolhagemAerea.jpg';
-import capa2 from './images/promessasDeVoo/p1.jpg';
+import capa2 from './images/promessasDeVoo/capacatalogo.jpg';
 import curriculo from './images/curriculo.jpg';
 
 function App() {
