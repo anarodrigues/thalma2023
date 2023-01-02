@@ -18,6 +18,8 @@ import p15 from './images/promessasDeVoo/p15.jpg'
 import p16 from './images/promessasDeVoo/p16.jpg'
 import p17 from './images/promessasDeVoo/p17.jpg'
 import p18 from './images/promessasDeVoo/p18.jpg'
+import p19 from './images/promessasDeVoo/p19.jpg'
+
 import e1 from './images/promessasDeVoo/e1.jpg'
 import e2 from './images/promessasDeVoo/e2.jpg'
 import e3 from './images/promessasDeVoo/e3.jpg'
@@ -158,6 +160,13 @@ function Promessas() {
       tech: 'Óleo sobre tela',
       size: '30cm x 80cm',
       image: p15,
+    },
+    {
+      title: '',
+      price: '',
+      tech: 'Óleo sobre tela',
+      size: '',
+      image: p19,
     },
     {
       title: '',
