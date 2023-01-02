@@ -20,7 +20,7 @@ function App() {
         <div onClick={() => {setMenuItem('amazonia'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Fragmentos da Amazônia (2023)</div>
         <div onClick={() => {setMenuItem('personas'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Personas (2005)</div>
         <div onClick={() => {setMenuItem('promessas'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Promessas de Vôo (2003)</div>
-        <div onClick={() => {setMenuItem('curriculo'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Currículo</div>
+        <div onClick={() => {setMenuItem('curriculo'); window.scrollTo({top:0,left:0,behavior:'smooth'})}}>Contato e Currículo</div>
       </menu>
       {menuItem === "amazonia" ?
         <>
@@ -60,6 +60,7 @@ function App() {
           <header className="CV-header">
             <img src={curriculo} className="FotoCurriculo" alt="logo" />
             <h1>Thalma de Oliveira Rodrigues</h1>
+            <p>thalma@estudiothalma.com.br - Belo Horizonte, MG, Brasil</p>
             <Curriculo />
           </header>
 
