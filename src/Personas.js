@@ -11,7 +11,6 @@ import pe8 from './images/personas/p8.jpg'
 import pe9 from './images/personas/p9.jpg'
 import pe10 from './images/personas/p10.jpg'
 import pe11 from './images/personas/p11.jpg'
-import pe12 from './images/personas/p12.jpg'
 import monalisa from './images/personas/mona-lisa.jpg'
 
 
