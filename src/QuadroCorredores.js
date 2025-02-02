@@ -14,7 +14,7 @@ function QuadroCorredores({ element }) {
   function handleComprar(event){
     let subject = "Interesse no quadro "+element.title+" no valor de R$"+element.price;
     let text = "Olá, Thalma.%0d%0a %0d%0a Meu nome é: %0d%0a e eu gostaria de saber mais informações sobre o quadro "+element.title+" no valor de R$"+element.price+".%0d%0a %0d%0a Atenciosamente, \n";
-    let location = 'mailto:thalma@studiothalma.com.br?subject='+subject+'&body='+text;
+    let location = 'mailto:thalma@estudiothalma.com.br?subject='+subject+'&body='+text;
     window.location = location; 
   }
   let cotacao = 5;
